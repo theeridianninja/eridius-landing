@@ -27,11 +27,6 @@ body {
     height: 100%;
 }
 
-section {
-    height: calc(100vh - 3rem);
-    background: radial-gradient(circle farthest-corner at center, #427f82, #196463, #08615b, #012422);
-}
-
 header, section, footer {
     height: 1rem;
     width: 100vw;
@@ -45,6 +40,11 @@ header, section, footer {
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+section {
+    height: calc(100vh - 3rem);
+    background: radial-gradient(circle farthest-corner at center, #427f82, #196463, #08615b, #012422);
 }
 
 h1, p, sub {
