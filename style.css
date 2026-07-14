@@ -28,7 +28,12 @@ body {
 }
 
 section {
-    height: 100vh;
+    height: calc(100vh - 3rem);
+    background: radial-gradient(circle farthest-corner at center, #427f82, #196463, #08615b, #012422);
+}
+
+header, section, footer {
+    height: 3rem;
     width: 100vw;
 
     margin: 0 auto;
@@ -40,8 +45,6 @@ section {
     align-items: center;
     text-align: center;
     justify-content: center;
-
-    background: radial-gradient(circle farthest-corner at center, #427f82, #196463, #08615b, #012422);
 }
 
 h1, p, sub {
@@ -62,6 +65,11 @@ p {
     font-size: 1rem;
 }
 
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
 img {
     border: 0px;
     height: 70px;
@@ -69,14 +77,14 @@ img {
 }
 
 @media screen and (max-width: 1200px) {
-    section {
+    header, section, footer {
         padding-left: 12vw;
         padding-right: 12vw;
     }
 }
 
 @media screen and (max-width: 900px) {
-    section {
+    header, section, footer {
         padding-left: 4rem;
         padding-right: 4rem;
     }
