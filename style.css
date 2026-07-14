@@ -71,9 +71,6 @@ nav {
     text-align: center;
     justify-content: center;
 
-    gap: 1rem;
-
-
     a {
         color: #F3F5F7;
         text-decoration: none;
@@ -81,7 +78,9 @@ nav {
     }
 
     a:not(:last-child)::after {
-        content: " -";
+        content: " - ";
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
 }
 
