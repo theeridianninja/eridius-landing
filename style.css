@@ -6,7 +6,7 @@
 
 :root {
     font-size: 14px;
-    background: #333;
+    background: #427f82;
     color: #F3F5F7;
 }
 
@@ -41,7 +41,7 @@ section {
     text-align: center;
     justify-content: center;
 
-    background: radial-gradient(circle farthest-corner at center, #123b6a, #0b2442, #07182d, #03101f);
+    background: radial-gradient(circle farthest-corner at center, #427f82, #196463, #08615b, #012422);
 }
 
 h1, p, sub {
