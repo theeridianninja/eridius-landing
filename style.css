@@ -67,7 +67,17 @@ p {
 
 nav {
     display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
     gap: 1rem;
+
+
+    a {
+        color: #F3F5F7;
+        text-decoration: none;
+    }
 }
 
 img {
