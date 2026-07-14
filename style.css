@@ -28,7 +28,7 @@ body {
 }
 
 header, section, footer {
-    height: 1rem;
+    height: 2rem;
     width: 100vw;
 
     margin: 0 auto;
@@ -43,7 +43,7 @@ header, section, footer {
 }
 
 section {
-    height: calc(100vh - 3rem);
+    height: calc(100vh - 2rem);
     background: radial-gradient(circle farthest-corner at center, #427f82, #196463, #08615b, #012422);
 }
 
@@ -70,7 +70,7 @@ nav {
     align-items: center;
     text-align: center;
     justify-content: center;
-    
+
     gap: 1rem;
 
 
